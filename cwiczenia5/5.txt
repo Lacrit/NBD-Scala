@@ -1,0 +1,1 @@
+MATCH (movie:Movie)<-[:ACTED_IN]-(person:Person)-[relatedTo]->(movie1:Movie) WHERE movie.title CONTAINS "Matrix" RETURN  movie1, person, relatedTo

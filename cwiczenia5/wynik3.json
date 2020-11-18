@@ -1,0 +1,232 @@
+﻿[
+  {
+    "hugoWeavingMovies": {
+      "identity": 1316,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "The Matrix Revolutions",
+        "tagline": "Everything that has a beginning has an end",
+        "released": 2003
+      }
+    },
+    "hugoDirectors": {
+      "identity": 17,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lilly Wachowski",
+        "born": 1967
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 1316,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "The Matrix Revolutions",
+        "tagline": "Everything that has a beginning has an end",
+        "released": 2003
+      }
+    },
+    "hugoDirectors": {
+      "identity": 18,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lana Wachowski",
+        "born": 1965
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 2176,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Cloud Atlas",
+        "tagline": "Everything is connected",
+        "released": 2012
+      }
+    },
+    "hugoDirectors": {
+      "identity": 2179,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Tom Tykwer",
+        "born": 1965
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 2176,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Cloud Atlas",
+        "tagline": "Everything is connected",
+        "released": 2012
+      }
+    },
+    "hugoDirectors": {
+      "identity": 17,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lilly Wachowski",
+        "born": 1967
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 2176,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Cloud Atlas",
+        "tagline": "Everything is connected",
+        "released": 2012
+      }
+    },
+    "hugoDirectors": {
+      "identity": 18,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lana Wachowski",
+        "born": 1965
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 2187,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "V for Vendetta",
+        "tagline": "Freedom! Forever!",
+        "released": 2006
+      }
+    },
+    "hugoDirectors": {
+      "identity": 2096,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "James Marshall",
+        "born": 1967
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 1315,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "The Matrix Reloaded",
+        "tagline": "Free your mind",
+        "released": 2003
+      }
+    },
+    "hugoDirectors": {
+      "identity": 18,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lana Wachowski",
+        "born": 1965
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 1315,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "The Matrix Reloaded",
+        "tagline": "Free your mind",
+        "released": 2003
+      }
+    },
+    "hugoDirectors": {
+      "identity": 17,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lilly Wachowski",
+        "born": 1967
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 12,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "The Matrix",
+        "tagline": "Welcome to the Real World",
+        "released": 1999
+      }
+    },
+    "hugoDirectors": {
+      "identity": 18,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lana Wachowski",
+        "born": 1965
+      }
+    }
+  },
+  {
+    "hugoWeavingMovies": {
+      "identity": 12,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "The Matrix",
+        "tagline": "Welcome to the Real World",
+        "released": 1999
+      }
+    },
+    "hugoDirectors": {
+      "identity": 17,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Lilly Wachowski",
+        "born": 1967
+      }
+    }
+  }
+]

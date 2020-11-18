@@ -1,0 +1,11 @@
+CREATE (avengers:Movie {title:'Captain America: The First Avenger', released:2011, tagline:"When Patriots Become Heroes"})
+CREATE (joe:Person {name: "Joe Johnston", born: 1950})
+CREATE (markus:Person {name: "Christopher Markus", born: 1970})
+CREATE (evans:Person {name: "Chris Evans", born: 1981})
+CREATE (hayley:Person {name: "Hayley Atwell", born: 1982})
+CREATE
+(evans)-[:ACTED_IN {roles:['Captain America']}]->(avengers),
+(hayley)-[:ACTED_IN {roles:['Peggy Carter']}]->(avengers),
+(joe)-[:DIRECTED]->(avengers),
+(markus)-[:WROTE]->(avengers)
+MATCH (movie:Movie {title: "Captain America: The First Avenger"})<-[relatedTo]-(person:Person) return movie, person

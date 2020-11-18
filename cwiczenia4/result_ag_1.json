@@ -1,0 +1,12 @@
+[
+	{
+		"_id" : "Female",
+		"height_average" : NumberDecimal("166.8126091370558375634517766497462"),
+		"weight_average" : NumberDecimal("70.11331573604060913705583756345178")
+	},
+	{
+		"_id" : "Male",
+		"height_average" : NumberDecimal("166.7373733091055925701594992933576"),
+		"weight_average" : NumberDecimal("70.24477286493034524530587522713507")
+	}
+]

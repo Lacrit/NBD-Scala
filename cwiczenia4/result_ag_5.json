@@ -1,0 +1,367 @@
+[
+	{
+		"_id" : "MAD",
+		"balance_left" : NumberDecimal("3818.85"),
+		"average_left" : NumberDecimal("3818.85")
+	},
+	{
+		"_id" : "XAF",
+		"balance_left" : NumberDecimal("14094.66"),
+		"average_left" : NumberDecimal("4698.22")
+	},
+	{
+		"_id" : "ZMW",
+		"balance_left" : NumberDecimal("5569.56"),
+		"average_left" : NumberDecimal("5569.56")
+	},
+	{
+		"_id" : "GTQ",
+		"balance_left" : NumberDecimal("5806.3"),
+		"average_left" : NumberDecimal("5806.3")
+	},
+	{
+		"_id" : "PYG",
+		"balance_left" : NumberDecimal("4874.69"),
+		"average_left" : NumberDecimal("4874.69")
+	},
+	{
+		"_id" : "ARS",
+		"balance_left" : NumberDecimal("23242.00"),
+		"average_left" : NumberDecimal("4648.40")
+	},
+	{
+		"_id" : "LYD",
+		"balance_left" : NumberDecimal("8764.99"),
+		"average_left" : NumberDecimal("4382.495")
+	},
+	{
+		"_id" : "PEN",
+		"balance_left" : NumberDecimal("18644.94"),
+		"average_left" : NumberDecimal("4661.235")
+	},
+	{
+		"_id" : "HRK",
+		"balance_left" : NumberDecimal("24354.82"),
+		"average_left" : NumberDecimal("4870.964")
+	},
+	{
+		"_id" : "PKR",
+		"balance_left" : NumberDecimal("18938.00"),
+		"average_left" : NumberDecimal("4734.50")
+	},
+	{
+		"_id" : "KRW",
+		"balance_left" : NumberDecimal("13379.82"),
+		"average_left" : NumberDecimal("6689.91")
+	},
+	{
+		"_id" : "XOF",
+		"balance_left" : NumberDecimal("17882.05"),
+		"average_left" : NumberDecimal("5960.683333333333333333333333333333")
+	},
+	{
+		"_id" : "HNL",
+		"balance_left" : NumberDecimal("16514.59"),
+		"average_left" : NumberDecimal("5504.863333333333333333333333333333")
+	},
+	{
+		"_id" : "UZS",
+		"balance_left" : NumberDecimal("3573.03"),
+		"average_left" : NumberDecimal("3573.03")
+	},
+	{
+		"_id" : "CUP",
+		"balance_left" : NumberDecimal("15017.34"),
+		"average_left" : NumberDecimal("5005.78")
+	},
+	{
+		"_id" : "PHP",
+		"balance_left" : NumberDecimal("118606.28"),
+		"average_left" : NumberDecimal("4941.928333333333333333333333333333")
+	},
+	{
+		"_id" : "AMD",
+		"balance_left" : NumberDecimal("24609.33"),
+		"average_left" : NumberDecimal("4921.866")
+	},
+	{
+		"_id" : "IRR",
+		"balance_left" : NumberDecimal("26504.24"),
+		"average_left" : NumberDecimal("4417.373333333333333333333333333333")
+	},
+	{
+		"_id" : "CDF",
+		"balance_left" : NumberDecimal("12228.8"),
+		"average_left" : NumberDecimal("6114.4")
+	},
+	{
+		"_id" : "MYR",
+		"balance_left" : NumberDecimal("4781.12"),
+		"average_left" : NumberDecimal("4781.12")
+	},
+	{
+		"_id" : "NPR",
+		"balance_left" : NumberDecimal("5792.26"),
+		"average_left" : NumberDecimal("5792.26")
+	},
+	{
+		"_id" : "BOB",
+		"balance_left" : NumberDecimal("5263.3"),
+		"average_left" : NumberDecimal("5263.3")
+	},
+	{
+		"_id" : "BWP",
+		"balance_left" : NumberDecimal("4076.29"),
+		"average_left" : NumberDecimal("4076.29")
+	},
+	{
+		"_id" : "ETB",
+		"balance_left" : NumberDecimal("5436.11"),
+		"average_left" : NumberDecimal("5436.11")
+	},
+	{
+		"_id" : "ISK",
+		"balance_left" : NumberDecimal("4316.41"),
+		"average_left" : NumberDecimal("4316.41")
+	},
+	{
+		"_id" : "MWK",
+		"balance_left" : NumberDecimal("3574.42"),
+		"average_left" : NumberDecimal("3574.42")
+	},
+	{
+		"_id" : "NGN",
+		"balance_left" : NumberDecimal("24946.23"),
+		"average_left" : NumberDecimal("4157.705")
+	},
+	{
+		"_id" : "CZK",
+		"balance_left" : NumberDecimal("37156.42"),
+		"average_left" : NumberDecimal("4644.5525")
+	},
+	{
+		"_id" : "JPY",
+		"balance_left" : NumberDecimal("60944.74"),
+		"average_left" : NumberDecimal("5078.728333333333333333333333333333")
+	},
+	{
+		"_id" : "BRL",
+		"balance_left" : NumberDecimal("49632.02"),
+		"average_left" : NumberDecimal("4512.001818181818181818181818181818")
+	},
+	{
+		"_id" : "NIO",
+		"balance_left" : NumberDecimal("9971.28"),
+		"average_left" : NumberDecimal("4985.64")
+	},
+	{
+		"_id" : "KZT",
+		"balance_left" : NumberDecimal("3788.95"),
+		"average_left" : NumberDecimal("3788.95")
+	},
+	{
+		"_id" : "THB",
+		"balance_left" : NumberDecimal("23021.96"),
+		"average_left" : NumberDecimal("4604.392")
+	},
+	{
+		"_id" : "COP",
+		"balance_left" : NumberDecimal("19746.73"),
+		"average_left" : NumberDecimal("4936.6825")
+	},
+	{
+		"_id" : "CNY",
+		"balance_left" : NumberDecimal("470700.38"),
+		"average_left" : NumberDecimal("4954.740842105263157894736842105263")
+	},
+	{
+		"_id" : "SEK",
+		"balance_left" : NumberDecimal("70840.19"),
+		"average_left" : NumberDecimal("5060.013571428571428571428571428571")
+	},
+	{
+		"_id" : "PLN",
+		"balance_left" : NumberDecimal("90770.78"),
+		"average_left" : NumberDecimal("5042.821111111111111111111111111111")
+	},
+	{
+		"_id" : "BYR",
+		"balance_left" : NumberDecimal("5095.79"),
+		"average_left" : NumberDecimal("5095.79")
+	},
+	{
+		"_id" : "AFN",
+		"balance_left" : NumberDecimal("16755.49"),
+		"average_left" : NumberDecimal("5585.163333333333333333333333333333")
+	},
+	{
+		"_id" : "USD",
+		"balance_left" : NumberDecimal("74680.98"),
+		"average_left" : NumberDecimal("4978.732")
+	},
+	{
+		"_id" : "IDR",
+		"balance_left" : NumberDecimal("323922.59"),
+		"average_left" : NumberDecimal("4907.918030303030303030303030303030")
+	},
+	{
+		"_id" : "EUR",
+		"balance_left" : NumberDecimal("245091.47"),
+		"average_left" : NumberDecimal("4901.8294")
+	},
+	{
+		"_id" : "ZAR",
+		"balance_left" : NumberDecimal("11790.92"),
+		"average_left" : NumberDecimal("3930.306666666666666666666666666667")
+	},
+	{
+		"_id" : "NOK",
+		"balance_left" : NumberDecimal("4773.66"),
+		"average_left" : NumberDecimal("4773.66")
+	},
+	{
+		"_id" : "MNT",
+		"balance_left" : NumberDecimal("21715.61"),
+		"average_left" : NumberDecimal("5428.9025")
+	},
+	{
+		"_id" : "RSD",
+		"balance_left" : NumberDecimal("4276.56"),
+		"average_left" : NumberDecimal("4276.56")
+	},
+	{
+		"_id" : "EGP",
+		"balance_left" : NumberDecimal("5579.3"),
+		"average_left" : NumberDecimal("5579.3")
+	},
+	{
+		"_id" : "IQD",
+		"balance_left" : NumberDecimal("4269.39"),
+		"average_left" : NumberDecimal("4269.39")
+	},
+	{
+		"_id" : "RWF",
+		"balance_left" : NumberDecimal("4632.88"),
+		"average_left" : NumberDecimal("4632.88")
+	},
+	{
+		"_id" : "ZWL",
+		"balance_left" : NumberDecimal("5792.17"),
+		"average_left" : NumberDecimal("5792.17")
+	},
+	{
+		"_id" : "ALL",
+		"balance_left" : NumberDecimal("3325.48"),
+		"average_left" : NumberDecimal("3325.48")
+	},
+	{
+		"_id" : "NZD",
+		"balance_left" : NumberDecimal("5328.46"),
+		"average_left" : NumberDecimal("5328.46")
+	},
+	{
+		"_id" : "VND",
+		"balance_left" : NumberDecimal("36160.26"),
+		"average_left" : NumberDecimal("4520.0325")
+	},
+	{
+		"_id" : "TJS",
+		"balance_left" : NumberDecimal("4087.71"),
+		"average_left" : NumberDecimal("4087.71")
+	},
+	{
+		"_id" : "MMK",
+		"balance_left" : NumberDecimal("4629.42"),
+		"average_left" : NumberDecimal("4629.42")
+	},
+	{
+		"_id" : "UAH",
+		"balance_left" : NumberDecimal("40471.84"),
+		"average_left" : NumberDecimal("5058.98")
+	},
+	{
+		"_id" : "MKD",
+		"balance_left" : NumberDecimal("3835.05"),
+		"average_left" : NumberDecimal("3835.05")
+	},
+	{
+		"_id" : "SRD",
+		"balance_left" : NumberDecimal("5286.68"),
+		"average_left" : NumberDecimal("5286.68")
+	},
+	{
+		"_id" : "ILS",
+		"balance_left" : NumberDecimal("16295.49"),
+		"average_left" : NumberDecimal("5431.83")
+	},
+	{
+		"_id" : "CAD",
+		"balance_left" : NumberDecimal("58375.60"),
+		"average_left" : NumberDecimal("5306.872727272727272727272727272727")
+	},
+	{
+		"_id" : "RUB",
+		"balance_left" : NumberDecimal("119749.15"),
+		"average_left" : NumberDecimal("4989.547916666666666666666666666667")
+	},
+	{
+		"_id" : "TZS",
+		"balance_left" : NumberDecimal("7052.37"),
+		"average_left" : NumberDecimal("3526.185")
+	},
+	{
+		"_id" : "BGN",
+		"balance_left" : NumberDecimal("21200.88"),
+		"average_left" : NumberDecimal("5300.22")
+	},
+	{
+		"_id" : "XPF",
+		"balance_left" : NumberDecimal("4759.07"),
+		"average_left" : NumberDecimal("4759.07")
+	},
+	{
+		"_id" : "DOP",
+		"balance_left" : NumberDecimal("20674.74"),
+		"average_left" : NumberDecimal("5168.685")
+	},
+	{
+		"_id" : "GBP",
+		"balance_left" : NumberDecimal("6149.19"),
+		"average_left" : NumberDecimal("6149.19")
+	},
+	{
+		"_id" : "VUV",
+		"balance_left" : NumberDecimal("6418.27"),
+		"average_left" : NumberDecimal("6418.27")
+	},
+	{
+		"_id" : "MXN",
+		"balance_left" : NumberDecimal("50229.00"),
+		"average_left" : NumberDecimal("5022.90")
+	},
+	{
+		"_id" : "KYD",
+		"balance_left" : NumberDecimal("3760.89"),
+		"average_left" : NumberDecimal("3760.89")
+	},
+	{
+		"_id" : "VEF",
+		"balance_left" : NumberDecimal("8333.28"),
+		"average_left" : NumberDecimal("4166.64")
+	},
+	{
+		"_id" : "MGA",
+		"balance_left" : NumberDecimal("14560.99"),
+		"average_left" : NumberDecimal("4853.663333333333333333333333333333")
+	},
+	{
+		"_id" : "YER",
+		"balance_left" : NumberDecimal("13712.50"),
+		"average_left" : NumberDecimal("4570.833333333333333333333333333333")
+	},
+	{
+		"_id" : "CLP",
+		"balance_left" : NumberDecimal("21008.95"),
+		"average_left" : NumberDecimal("5252.2375")
+	}
+]
