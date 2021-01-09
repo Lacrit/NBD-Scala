@@ -1,0 +1,33 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Lamborghini", "max_speed": "8000000", "price": 50000, "year": 2015}' http://172.17.0.2:8098/buckets/s15237/keys/car1
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Lamborghini", "max_speed": "3333333", "price": 1234567, "year": 2015}' http://172.17.0.2:8098/buckets/s15237/keys/car2
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Pagani", "max_speed": "120", "price": 6666666, "year": 2018}' http://172.17.0.2:8098/buckets/s15237/keys/car3
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Porsche", "max_speed": "250", "price": 3333333, "year": 2016}' http://172.17.0.2:8098/buckets/s15237/keys/car4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Porsche", "max_speed": "280", "price": 8000000, "year": 2014}' http://172.17.0.2:8098/buckets/s15237/keys/car5
+
+2. 
+curl -i http://172.17.0.2:8098/buckets/s15237/keys/car1
+
+3. 
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Lamborghini", "max_speed": "8000000", "price": 50000, "year": 2015, "is_good": "yes"}' http://172.17.0.2:8098/buckets/s15237/keys/car1
+
+4. 
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Lamborghini", "max_speed": "3333333", "price": 1234567}' http://172.17.0.2:8098/buckets/s15237/keys/car2
+
+5. 
+curl -i -XPUT -H "Content-Type: application/json" -d '{"producer": "Pagani", "max_speed": "120", "price": 0, "year": 2018}' http://172.17.0.2:8098/buckets/s15237/keys/car3
+
+6. 
+curl -i -XDELETE -H "Content-Type: application/json" http://172.17.0.2:8098/buckets/s15237/keys/car5
+
+7. 
+curl -i http://172.17.0.2:8098/buckets/s15237/keys/thisdoesnotexist
+
+8. 
+curl -i -H "Content-Type: application/json" -d '{"producer": "Lamborghini"}' http://172.17.0.2:8098/buckets/s15237/keys
+
+9. 
+curl -i http://172.17.0.2:8098/buckets/s15237/keys/KynOOyOLR7rJ3GOH3k24aVcVVCG
+
+10. 
+curl -i -XDELETE -H "Content-Type: application/json" http://172.17.0.2:8098/buckets/s15237/keys/KynOOyOLR7rJ3GOH3k24aVcVVCG 

@@ -1,0 +1,268 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 152,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "LAX"
+        }
+      },
+      "end": {
+        "identity": 1112,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "DAY"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 152,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "LAX"
+            }
+          },
+          "relationship": {
+            "identity": 1760,
+            "start": 1727,
+            "end": 152,
+            "type": "ORIGIN",
+            "properties": {}
+          },
+          "end": {
+            "identity": 1727,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/29/2015 07:39:45",
+              "duration": 40,
+              "distance": 236,
+              "airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 1727,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/29/2015 07:39:45",
+              "duration": 40,
+              "distance": 236,
+              "airline": "19977"
+            }
+          },
+          "relationship": {
+            "identity": 1761,
+            "start": 1727,
+            "end": 1067,
+            "type": "DESTINATION",
+            "properties": {}
+          },
+          "end": {
+            "identity": 1067,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 1067,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "LAS"
+            }
+          },
+          "relationship": {
+            "identity": 1740,
+            "start": 1711,
+            "end": 1067,
+            "type": "ORIGIN",
+            "properties": {}
+          },
+          "end": {
+            "identity": 1711,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/29/2015 13:53:54",
+              "duration": 80,
+              "distance": 628,
+              "airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 1711,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/29/2015 13:53:54",
+              "duration": 80,
+              "distance": 628,
+              "airline": "19977"
+            }
+          },
+          "relationship": {
+            "identity": 1741,
+            "start": 1711,
+            "end": 1059,
+            "type": "DESTINATION",
+            "properties": {}
+          },
+          "end": {
+            "identity": 1059,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 1059,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "DEN"
+            }
+          },
+          "relationship": {
+            "identity": 1716,
+            "start": 1691,
+            "end": 1059,
+            "type": "DESTINATION",
+            "properties": {}
+          },
+          "end": {
+            "identity": 1691,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/29/2015 16:19:49",
+              "duration": 108,
+              "distance": 680,
+              "airline": "19977"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 1691,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/29/2015 16:19:49",
+              "duration": 108,
+              "distance": 680,
+              "airline": "19977"
+            }
+          },
+          "relationship": {
+            "identity": 1715,
+            "start": 1691,
+            "end": 159,
+            "type": "ORIGIN",
+            "properties": {}
+          },
+          "end": {
+            "identity": 159,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "MSP"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 159,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "MSP"
+            }
+          },
+          "relationship": {
+            "identity": 2332,
+            "start": 2159,
+            "end": 159,
+            "type": "ORIGIN",
+            "properties": {}
+          },
+          "end": {
+            "identity": 2159,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/23/2015 09:37:48",
+              "duration": 70,
+              "distance": 574,
+              "airline": "20304"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 2159,
+            "labels": [
+              "Flight"
+            ],
+            "properties": {
+              "date": "11/23/2015 09:37:48",
+              "duration": 70,
+              "distance": 574,
+              "airline": "20304"
+            }
+          },
+          "relationship": {
+            "identity": 2333,
+            "start": 2159,
+            "end": 1112,
+            "type": "DESTINATION",
+            "properties": {}
+          },
+          "end": {
+            "identity": 1112,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "DAY"
+            }
+          }
+        }
+      ],
+      "length": 8
+    },
+    "cost": 2216
+  }
+]

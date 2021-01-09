@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpfhfuILEUpkzGNlOJXkeJMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15237>; rel="up"
+Last-Modified: Sun, 06 Dec 2020 14:12:26 GMT
+ETag: "3GmZQUSVIk4blfYVhb2xSO"
+Date: Sun, 06 Dec 2020 14:13:35 GMT
+Content-Type: application/json
+Content-Length: 81
+
+{"producer": "Lamborghini", "max_speed": "8000000", "price": 50000, "year": 2015}

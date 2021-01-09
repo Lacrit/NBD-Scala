@@ -1,0 +1,65 @@
+1.
+MATCH (town1 {name:"Darjeeling"}),(town2 {name:"Sandakphu"}), path=allShortestPaths((town1)-[*]-(town2)) RETURN path
+
+___
+2. 
+MATCH (town1 {name:"Darjeeling"}),(town2 {name:"Sandakphu"}), path=allShortestPaths((town1)-[relation*]-(town2))
+WHERE ALL(x IN relation WHERE x.winter="true")
+RETURN path
+
+___
+3.
+MATCH (town1 {name:"Darjeeling"}),(town2 {name:"Sandakphu"}), path = allShortestPaths((town1)-[*]-(town2)) RETURN path ORDER BY length(path) ASC
+
+___
+4.
+MATCH (airport:Airport)<-[:ORIGIN]-(flight:Flight) RETURN airport, COUNT(flight) ORDER BY COUNT(flight)
+
+___
+5. 
+MATCH (startAirport:Airport)<-[:ORIGIN]-(flight)-[:DESTINATION]->(endAirport:Airport), (flight)<-[:ASSIGN]-(ticket)
+CREATE (startAirport)-[:CONNECTION {price: ticket.price}]->(endAirport)
+
+MATCH trip = (Airport { name:"LAX" })-[:CONNECTION*]->(airports)
+	WITH airports, relationships(trip) AS trip
+	WHERE REDUCE(accumulator = 0, a IN trip|accumulator + a.price) < 3000
+	RETURN DISTINCT airports
+
+___
+6.
+MATCH (start:Airport { name:"LAX" }), (end: Airport {name:'DAY'}), trip = (start)-[:CONNECTION*]->(end)
+	WITH trip, relationships(trip) AS conn
+	return trip, REDUCE(price = 0, conn IN conn | price + conn.price) AS price ORDER BY price
+
+___
+7.
+MATCH p = (n:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[*..6]-(:Flight)-[:DESTINATION]->(m:Airport {name: "DAY"})
+RETURN p, reduce(
+    c = 0, 
+    flight IN [n IN nodes(p) WHERE 'Flight' IN labels(n)] |
+    c + [(flight)<-[:ASSIGN]-(ticket:Ticket {class: "economy"}) | ticket.price][0]
+) as cost
+ORDER BY cost ASC LIMIT 1
+
+___
+8. 
+MATCH p = (n:Airport {name: "LAX"})<-[:ORIGIN]-(:Flight)-[*..6]-(:Flight)-[:DESTINATION]->(m:Airport {name: "DAY"})
+RETURN p, reduce(
+    c = 0, 
+    flight IN [n IN nodes(p) WHERE 'Flight' IN labels(n)] |
+    c + [(flight)<-[:ASSIGN]-(ticket:Ticket {class: "business"}) | ticket.price][0]
+) as cost
+ORDER BY cost ASC LIMIT 1
+
+___
+9.	
+MATCH p=(start:Airport)<-[:ORIGIN]-(f:Flight)-[:DESTINATION]->(end:Airport)
+    return start, count(distinct end)
+
+___
+10.
+MATCH p=(start:Airport)-[r:LOT*2]->(end:Airport)
+    WHERE (start)<>(end)
+    with p, reduce(totalPrice = 0, bilet in r | totalPrice + bilet.cena) as redukcja
+    return p, redukcja order by redukcja LIMIT 1
+

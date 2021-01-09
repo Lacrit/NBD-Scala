@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvpfh/cIDEUpkzGNl2JDseJMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15237>; rel="up"
+Last-Modified: Sun, 06 Dec 2020 14:16:16 GMT
+ETag: "6HN3cxsOfDYT9FMDHCsRwr"
+Date: Sun, 06 Dec 2020 14:17:06 GMT
+Content-Type: application/json
+Content-Length: 27
+
+{"producer": "Lamborghini"}% 

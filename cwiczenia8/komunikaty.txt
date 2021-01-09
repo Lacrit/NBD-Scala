@@ -1,0 +1,19 @@
+[204]
+
+
+[200]
+name=Pizza&calories=500&is_vegan=False
+
+[204]
+
+
+[200]
+name=Hummus&calories=200&is_vegan=True
+
+[204]
+
+
+[404]
+not found
+
+
